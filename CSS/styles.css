@@ -1,0 +1,220 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Yomogi&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: white;
+  font-family: 'Yomogi', cursive; }
+
+/* HEADER + NAV */
+.nav_list {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 10px; }
+  .nav_list:hover {
+    color: #f3c2cb;
+    transition: linear 0.3s; }
+
+.activo {
+  color: #f3c2cb; }
+
+header {
+  display: flex;
+  width: 100%;
+  padding: 30px 0%; }
+
+/* LOGO */
+.header__caro {
+  color: black;
+  font-size: 28px;
+  cursor: pointer;
+  font-weight: bold; }
+
+.header__bambino {
+  color: #FF0051;
+  font-size: 28px;
+  cursor: pointer; }
+
+/* TERMINA LOGO */
+.navbar {
+  width: 100%; }
+
+.nav__links {
+  list-style: none; }
+  .nav__links li {
+    display: inline-block;
+    padding: 10px; }
+    .nav__links li a {
+      transition: all 0.3s linear; }
+
+.nav__links li a:hover {
+  background-color: #f3c2cb;
+  cursor: pointer;
+  color: black; }
+
+
+/* BREADCRUMB */
+.breadCrumbs {
+  justify-content: center;
+  text-align: center; }
+  .breadCrumbs ol {
+    justify-content: center; }
+    .breadCrumbs ol li {
+      text-align: center;
+      padding-top: 40px; }
+      .breadCrumbs ol li a {
+        text-decoration: none;
+        font-weight: bold;
+        color: black; }
+        .breadCrumbs ol li a:hover {
+          color: #f3c2cb;
+          transition: linear 0.3s; }
+
+/* FOOTER */
+footer {
+  display: flex;
+  width: 100%;
+  background: #0e0d0d;
+  justify-content: space-around;
+  text-align: center;
+  height: 70px;
+  margin-top: 40px; }
+
+@media (max-width: 600px) {
+  .footerinstagram {
+    font-size: 13px; }
+    .footerinstagram a img {
+      width: 25px;
+      height: 25px; }
+  .footerfacebook {
+    font-size: 13px; }
+    .footerfacebook a img {
+      width: 25px;
+      height: 25px; }
+  .footerwhatsapp {
+    font-size: 13px; }
+    .footerwhatsapp a img {
+      width: 25px;
+      height: 25px; } }
+
+.footerinstagram {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: auto; }
+  .footerinstagram img {
+    width: 30px;
+    height: 30px; }
+    .footerinstagram img:hover {
+      transition: linear 0.2s;
+      opacity: 20%; }
+  .footerinstagram p {
+    color: #f3c2cb; }
+
+.footerfacebook {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: auto; }
+  .footerfacebook img {
+    width: 30px;
+    height: 30px; }
+    .footerfacebook img:hover {
+      transition: linear 0.2s;
+      opacity: 20%; }
+  .footerfacebook p {
+    color: #f3c2cb; }
+
+.footerwhatsapp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: auto; }
+  .footerwhatsapp img {
+    width: 30px;
+    height: 30px; }
+    .footerwhatsapp img:hover {
+      transition: linear 0.2s;
+      opacity: 20%; }
+  .footerwhatsapp p {
+    color: #f3c2cb; }
+
+/* PRODUCTOS.html */
+.productosNiños {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  border-top: black solid 1px; }
+  .productosNiños .card {
+    margin: 10px; }
+    .productosNiños .card .btn {
+      background-color: green;
+      border: none; }
+      .productosNiños .card .btn:hover {
+        transition: linear 0.2s;
+        background-color: #02ac02; }
+    .productosNiños .card p {
+      font-weight: bold;
+      font-size: 18px; }
+
+.preciosFinales {
+  margin: 20px;
+}
+
+#btnPrecioFinal {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.ropaParaNiños {
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: #ff5d5d;
+  font-weight: bold; }
+
+
+.breadCrumbs {
+  display: inline; }
+  .breadCrumbs ul {
+    list-style: none; }
+    .breadCrumbs ul li a {
+      text-decoration: none;
+      color: black; }
+      .breadCrumbs ul li a:hover {
+        color: #f3c2cb;
+        transition: linear 0.3s; }
+
+#preciosFinales {
+  margin: 30px;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.mensajeDespedida {
+  margin: auto;
+  text-align: center;
+}
+
+.mensajeDespedida strong {
+  color: red;
+}
+
+.homero {
+  padding: 10px 0px 0px 0px;
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
